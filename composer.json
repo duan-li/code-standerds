@@ -1,0 +1,34 @@
+{
+  "name": "duan-li/code-standards",
+  "description": "Code Standards by using PHPMD PHPCS and PHPStan",
+  "keywords": [
+    "phpstan",
+    "phpmd",
+    "phpcs"
+  ],
+  "homepage": "https://github.com/duan-li/code-standerds",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Duan Li",
+      "email": "inputx@gmail.com",
+      "homepage": "https://liduan.net",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": "~7.1"
+  },
+  "require-dev": {
+    "phpmd/phpmd": "~2.6.0"
+
+  },
+  "autoload": {
+    "psr-4": {
+      "CodeStandards\\": "src"
+    }
+  },
+  "config": {
+    "sort-packages": true
+  }
+}
